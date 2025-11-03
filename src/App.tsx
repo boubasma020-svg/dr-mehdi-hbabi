@@ -99,7 +99,7 @@ function App() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
-              <img src="img/logo.png" alt="Logo" className="h-20 w-auto" />
+              <img src="public/img/logo.png" alt="Logo" className="h-20 w-auto" />
             </div>
 
             <div className="hidden md:flex space-x-8">
@@ -157,7 +157,7 @@ function App() {
       <main className="pt-0">
         <section id="accueil" className="relative h-screen flex items-center" style={{ background: 'linear-gradient(to bottom, #08244d, #c5c5ba)' }}>
           <div className="absolute inset-0 flex items-center justify-end">
-            <img src="img/1.png" alt="Dr. Mehdi Lahbabi" className="h-full object-contain object-right" style={{ maxWidth: '50%' }} />
+            <img src="public/img/1.png" alt="Dr. Mehdi Lahbabi" className="h-full object-contain object-right" style={{ maxWidth: '50%' }} />
           </div>
           <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl">
@@ -304,7 +304,7 @@ function App() {
               <SwiperSlide>
                 <div className="relative rounded-2xl mx-2 p-6" style={{ border: '3px solid #08244d', backgroundColor: 'transparent' }}>
                   <div className="absolute top-4 left-4">
-                    <img src="img/Symbole.png" alt="Quote" className="w-12 h-12" />
+                    <img src="public/img/Symbole.png" alt="Quote" className="w-12 h-12" />
                   </div>
                   <div className="absolute bottom-4 right-4">
                     <img src="img/Symbole.png" alt="Quote" className="w-12 h-12 transform rotate-180" />
@@ -328,10 +328,10 @@ function App() {
               <SwiperSlide>
                 <div className="relative rounded-2xl mx-2 p-6" style={{ border: '3px solid #08244d', backgroundColor: 'transparent' }}>
                   <div className="absolute top-4 left-4">
-                    <img src="img/Symbole.png" alt="Quote" className="w-12 h-12" />
+                    <img src="public/img/Symbole.png" alt="Quote" className="w-12 h-12" />
                   </div>
                   <div className="absolute bottom-4 right-4">
-                    <img src="img/Symbole.png" alt="Quote" className="w-12 h-12 transform rotate-180" />
+                    <img src="public/img/Symbole.png" alt="Quote" className="w-12 h-12 transform rotate-180" />
                   </div>
                   <div className="pt-12 pb-4">
                     <h3 className="text-xl font-bold mb-4 text-center" style={{ color: '#08244d' }}>AMAL FARISS</h3>
@@ -352,10 +352,10 @@ function App() {
               <SwiperSlide>
                 <div className="relative rounded-2xl mx-2 p-6" style={{ border: '3px solid #08244d', backgroundColor: 'transparent' }}>
                   <div className="absolute top-4 left-4">
-                    <img src="img/Symbole.png" alt="Quote" className="w-12 h-12" />
+                    <img src="public/img/Symbole.png" alt="Quote" className="w-12 h-12" />
                   </div>
                   <div className="absolute bottom-4 right-4">
-                    <img src="img/Symbole.png" alt="Quote" className="w-12 h-12 transform rotate-180" />
+                    <img src="public/img/Symbole.png" alt="Quote" className="w-12 h-12 transform rotate-180" />
                   </div>
                   <div className="pt-12 pb-4">
                     <h3 className="text-xl font-bold mb-4 text-center" style={{ color: '#08244d' }}>YARA LATIS</h3>
@@ -464,7 +464,7 @@ function App() {
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center">
-                <img src="img/logo.png" alt="Dr. Mehdi Lahbabi" className="w-full max-w-md" />
+                <img src="public/img/logo.png" alt="Dr. Mehdi Lahbabi" className="w-full max-w-md" />
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
