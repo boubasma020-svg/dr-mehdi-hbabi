@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-b-3 {
+    border-bottom-width: 3px;
+  }
+}
+
+* {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="10" fill="%23f9b400" opacity="0.8"/><circle cx="24" cy="24" r="6" fill="%23082450" opacity="0.3"/></svg>') 24 24, auto;
+}
+
+a, button {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="12" fill="%23f9b400" opacity="0.9"/><circle cx="24" cy="24" r="7" fill="%23082450" opacity="0.4"/></svg>') 24 24, pointer;
+}
+
+input, textarea, select {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="10" fill="%23f9b400" opacity="0.8"/><circle cx="24" cy="24" r="6" fill="%23082450" opacity="0.3"/></svg>') 24 24, text;
+}
+
+/* Swiper Custom Styles */
+.services-swiper {
+  padding: 20px 0 50px 0;
+}
+
+.services-swiper .swiper-button-next,
+.services-swiper .swiper-button-prev {
+  color: #08244d;
+  background: transparent;
+}
+
+.services-swiper .swiper-button-next:after,
+.services-swiper .swiper-button-prev:after {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.services-swiper .swiper-pagination-bullet {
+  background: #08244d;
+  opacity: 0.4;
+}
+
+.services-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* Testimonials Carousel Styles */
+.testimonials-swiper {
+  padding: 30px 0 60px 0;
+}
+
+.testimonials-swiper .swiper-button-next,
+.testimonials-swiper .swiper-button-prev {
+  color: #08244d;
+  background: transparent;
+}
+
+.testimonials-swiper .swiper-button-next:after,
+.testimonials-swiper .swiper-button-prev:after {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  background: #08244d;
+  width: 12px;
+  height: 12px;
+  opacity: 0.4;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #08244d;
+}
